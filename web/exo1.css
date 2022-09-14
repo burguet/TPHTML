@@ -1,0 +1,11 @@
+h1{
+    color: red ;
+    font-size: 20px;
+}
+div.style1{
+background-color:#339;
+color:#fff;
+padding:30px;
+border-bottom:20px solid red;
+margin-bottom:15px;
+}
