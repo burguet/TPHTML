@@ -5,9 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+      table,
+      th,
+      td{
+          padding:10px;
+          border:1px solid black;
+          border-collapse: collapse ; 
+          
+      }
+  </style>
 </head>
 <body>
-        
+<table>
+  <tr>
+    <td>
     <p>Civilités :
          Mr <input type="radio"   name="drone" >
          Mme ou Mlle<input type="radio"  name="drone" > </p> 
@@ -89,12 +101,19 @@
     <BLOCKQUOTE> <BLOCKQUOTE> <BLOCKQUOTE>code postale : <input>  Ville:<input> </BLOCKQUOTE></BLOCKQUOTE></BLOCKQUOTE> 
   </p>
 
-  <p>
-    Téléphone :  <input>
-  </p>
-  <p>
-    Email :  <input>
-  </p>
-  <input type="submit" value="Envoyer"> <input type="submit" value="remise a zéro">
+  <div>
+    <label for="">Téléphone:</label>
+    <input type="text" id="tel" name="tel" value="" required size="7">
+    <p id="p"></p>
+    <label for="">Email:</label>
+    <input type="text" id="mail" name="mail" value="" required>
+</div>
+
+<button type="submit">Envoyer </button>
+<button type="submit"> Remise à zéro</button>
+
+</td>
+</tr>
+</table>
 </body> 
 </html>
